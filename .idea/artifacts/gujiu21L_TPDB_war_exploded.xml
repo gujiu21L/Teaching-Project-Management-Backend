@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gujiu21L-TPDB:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/gujiu21L_TPDB_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gujiu21L-TPDB/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gujiu21L-TPDB" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

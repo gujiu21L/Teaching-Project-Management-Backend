@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="gujiu21L-TPDB:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67511093-7922-4157-a765-a6dc34f14d70" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/gujiu21L_TPDB_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gujiu21L-TPDB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/jdbc.properties.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/common/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/controller/ProjectParticipationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/ProjectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/ProjectParticipationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/impl/ProjectDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/impl/ProjectParticipationDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/dao/impl/TeacherDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/filters/CrosFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/filters/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/ProjectParticipation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/vo/ProjectParticipationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/vo/ProjectVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/vo/StudentVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/pojo/vo/TeacherVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/ProjectParticipationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/impl/ProjectParticipationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/util/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/util/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gujiu21l/tp/util/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-annotations-2.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-2.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jackson-databind-2.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jaxb-api-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jjwt-0.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/lombok-1.18.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2iEIyAyzNrqEZ72qoSLb1YIUf5b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.1.19.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/A_Shun_Exclusive/AllCodes/MyCodingWorkspace/IdeaProjects/gujiu21L-TPDB",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\A_Shun_Exclusive\AllCodes\MyCodingWorkspace\IdeaProjects\gujiu21L-TPDB\src" />
+      <recent name="D:\A_Shun_Exclusive\AllCodes\MyCodingWorkspace\IdeaProjects\gujiu21L-TPDB\web\WEB-INF\lib" />
+      <recent name="D:\A_Shun_Exclusive\AllCodes\MyCodingWorkspace\IdeaProjects\gujiu21L-TPDB" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gujiu21l.tp.filters" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="gujiu21L-TPDB:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="810b8361-416a-4d24-a6de-8d2d2b35e993" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62854" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="gujiu21L-TPDB:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67511093-7922-4157-a765-a6dc34f14d70" name="Changes" comment="" />
+      <created>1719049563115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719049563115</updated>
+      <workItem from="1719049564163" duration="68000" />
+      <workItem from="1719049899488" duration="9759000" />
+      <workItem from="1719103264165" duration="12239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
