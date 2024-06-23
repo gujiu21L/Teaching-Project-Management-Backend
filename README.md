@@ -82,22 +82,6 @@
    cd Teaching-Project-Management-Backend
    ```
 
-2. **安装依赖**
-
-   使用 Maven 安装项目依赖：
-
-   ```sh
-   mvn clean install
-   ```
-
-3. **启动项目**
-
-   使用 Maven 启动项目：
-
-   ```sh
-   mvn spring-boot:run
-   ```
-
 4. **访问 API 接口**
 
    项目启动后，可以通过以下路径访问 API 接口：
