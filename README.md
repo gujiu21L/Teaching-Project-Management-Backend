@@ -11,9 +11,85 @@
   
 ### 项目结构
 
-- `src/main/java`：Java 源代码目录。
-- `src/main/resources`：资源文件目录，包括配置文件。
-- `src/test/java`：单元测试代码目录。
+```txt
+│  .gitignore
+│  gujiu21L-TPDB.iml
+├─.idea
+│ 
+├─resources
+│      jdbc.properties
+│
+├─src
+│  └─com
+│      └─gujiu21l
+│          └─tp
+│              ├─common
+│              │      Result.java
+│              │      ResultCodeEnum.java
+│              │
+│              ├─controller
+│              │      BaseController.java
+│              │      ProjectController.java
+│              │      ProjectParticipationController.java
+│              │      StudentController.java
+│              │      TeacherController.java
+│              │
+│              ├─dao
+│              │  │  BaseDao.java
+│              │  │  ProjectDao.java
+│              │  │  ProjectParticipationDao.java
+│              │  │  StudentDao.java
+│              │  │  TeacherDao.java
+│              │  │
+│              │  └─impl
+│              │          ProjectDaoImpl.java
+│              │          ProjectParticipationDaoImpl.java
+│              │          StudentDaoImpl.java
+│              │          TeacherDaoImpl.java
+│              │
+│              ├─filters
+│              │      CrosFilter.java
+│              │      LoginFilter.java
+│              │
+│              ├─pojo
+│              │  │  Project.java
+│              │  │  ProjectParticipation.java
+│              │  │  Student.java
+│              │  │  Teacher.java
+│              │  │
+│              │  └─vo
+│              │          ProjectParticipationVO.java
+│              │          ProjectVO.java
+│              │          StudentVO.java
+│              │          TeacherVO.java
+│              │
+│              ├─service
+│              │  │  ProjectParticipationService.java
+│              │  │  ProjectService.java
+│              │  │  StudentService.java
+│              │  │  TeacherService.java
+│              │  │
+│              │  └─impl
+│              │          ProjectParticipationServiceImpl.java
+│              │          ProjectServiceImpl.java
+│              │          StudentServiceImpl.java
+│              │          TeacherServiceImpl.java
+│              │
+│              ├─test
+│              └─util
+│                      JDBCUtil.java
+│                      JwtHelper.java
+│                      MD5Util.java
+│                      WebUtil.java
+│
+└─web
+    │  index.jsp
+    │
+    └─WEB-INF
+        │  web.xml
+        │
+        └─lib
+```
 
 ### 环境要求
 
